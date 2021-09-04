@@ -39,7 +39,7 @@ function updateFireIntensityPerPixel(currentPixelIndex) {
         return
     }
 
-    const decay = Math.floor(Math.random() * 23 )
+    const decay = Math.floor(Math.random() * 2 )
     const belowPixelFireIntensity = firePixelsArray[belowPixelIndex]
     const newFireIntensity = belowPixelFireIntensity - decay >= 0 ? belowPixelFireIntensity - decay : 0
 

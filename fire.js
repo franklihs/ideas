@@ -43,7 +43,7 @@ function updateFireIntensityPerPixel(currentPixelIndex) {
     const belowPixelFireIntensity = firePixelsArray[belowPixelIndex]
     const newFireIntensity = belowPixelFireIntensity - decay >= 0 ? belowPixelFireIntensity - decay : 0
 
-    firePixelsArray[currentPixelIndex - decay] = newFireIntensity
+    firePixelsArray[currentPixelIndex] = newFireIntensity
 }
 
 function renderFire() {

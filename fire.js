@@ -9,7 +9,7 @@ function start() {
     createFireSource()
     renderFire()
     
-    setInterval(calculateFirePropagation, 0.1)
+    setInterval(calculateFirePropagation, 0.01)
 }
 
 function createFireDataStructure() {

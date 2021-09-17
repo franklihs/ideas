@@ -1,4 +1,5 @@
 // https://ideas-lemon.vercel.app/ 
+import Link from 'next/Link';
 import {useState} from 'react';
 
 function Home () {

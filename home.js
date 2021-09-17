@@ -5,9 +5,11 @@ import {useState} from 'react';
 function Home () {
     return (
         <div>
-            <h1>Home 1</h1>
+            <h1>Home</h1>
             <Contador />
-            <a href="/DoomFire/doomfire">Acessar página do fogo do Doom</a>
+            <Link href="/DoomFire/doomfire">
+                <a>Acessar página do fogo do Doom</a>
+            </Link>
         </div>
     )    
 }
